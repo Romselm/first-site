@@ -1,0 +1,236 @@
+@font-face {
+    font-family: myriad;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+* {
+    box-sizing: border-box;
+    font-family: "myriad";
+    font-weight: normal;
+    position: relative;
+}
+body {
+    margin:0;
+}
+.header {
+    width: 1200px;
+    margin: 0 auto;
+}
+.red {
+    margin-top: 0;
+    height: 700px;
+    background-image:url(../img/Layer\ 1.png);
+}
+.menu {
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+.automotive-top {
+    margin-top: 40px;
+    margin-left: 75px;
+    width: 300px;
+
+}
+.ul-menu {
+    list-style: none;
+    display: flex;
+    margin-top: 80px; 
+    margin-right: 75px;
+    letter-spacing: 3px;
+}
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    background-color: #130e27;
+    border-radius: 7px;
+}
+.li-menu {  
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 17px 10px 17px;
+}
+.home {
+    background-color: #130e27;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 15px 10px 15px;
+    height: 42px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.car {
+    margin-top: 130px;
+    margin-left: 90px;
+    font-size: 90px;
+    max-width: 500px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 80px;
+}
+.car-now {
+    color: white;
+}
+.lorem {
+    margin-left: 90px;
+    max-width: 450px;
+    color: rgba(255, 255, 255, .75);
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;      
+}
+.services {
+    height: 460px;
+    padding: 0 15px 0 35px;
+    background-color: white;
+}
+.our-services {
+    font-size: 50px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+.our {
+    color: red;
+}
+.link-story {
+    text-decoration: none;
+}
+.icons {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.icons-text {
+    max-width: 150px;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, .7);
+}
+.item {
+    margin: 0 60px;
+}
+.fa {
+    font-size: 155px;
+    margin-bottom: 15px;
+}
+.story {
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #130e27;
+    text-align: center;
+}
+.story-text {
+    margin-left: 100px;
+    max-width: 600px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, .7);
+    text-align: left;
+    line-height: 28px;
+}
+.story-right {
+    margin-right: 75px;
+    border-radius: 5px;
+    background-color: rgb(198, 35, 20); 
+    font-size: 22px;
+    font-family: "Myriad";
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+    height: 60px;
+    padding: 20px 65px 20px 65px; 
+    text-transform: uppercase;
+}
+.pricing {
+    height: 530px;
+    background-color:#efefef;
+}
+.pricing-text {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 50px;
+    margin-top: 0;  
+}
+.free {
+    display: flex; 
+    justify-content: space-evenly;
+    margin: 10px 75px 0 80px;
+}
+.item-free {
+    text-align: center;
+    background-color: white;
+    width: 300px;
+}
+.free-1-text {
+    font-size: 20px;
+}
+.free-2-text {
+    font-size: 60px;
+    font-family: "Montserrat";
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.free-3 {
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+.ul-free {
+    list-style: none;
+    padding-left: 0;
+}
+.link-pricing {
+    text-decoration: none;
+}
+.free-4 {
+    margin: 0 70px 10px 70px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 12px 0;
+    color: rgba(255, 255, 255, .85);
+    letter-spacing: 1px;
+}
+.free-4-black {
+    background-color:#130e27;
+}
+.free-4-red {
+    background-color: rgb(198, 35, 20);
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: #130e27;
+}
+.bottom-text {
+    font-size: 20px;
+    color: rgba(255, 255, 255, .9);
+    margin-left: 75px;
+    margin: auto 75px;
+}
+.Romselm {
+    color: rgb(198, 35, 20);
+    text-decoration: none;
+}
+.automotive-bottom {
+    width: 300px;
+    margin:auto 75px;
+}
